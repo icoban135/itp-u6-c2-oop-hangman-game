@@ -25,7 +25,7 @@ def main():
     else:
         words = None
 
-    game = HangmanGame(word_list=words)
+    game = HangmanGame(list_of_words=words)
 
     print("\n### Game Initialized. Let's play!!\n")
 
